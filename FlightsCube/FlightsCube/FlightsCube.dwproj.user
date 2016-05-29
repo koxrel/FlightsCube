@@ -3,13 +3,12 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>netkoxrel</TargetServer>
+        <TargetServer>localhost</TargetServer>
         <TargetDatabase>FlightsCube</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
         </StartObject>
-        <DeploymentMode>DeployAll</DeploymentMode>
       </Options>
     </Configuration>
   </Configurations>
