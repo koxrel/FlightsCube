@@ -6,7 +6,7 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
-  <ddl200:CompatibilityLevel>1200</ddl200:CompatibilityLevel>
+  <ddl200:CompatibilityLevel>1100</ddl200:CompatibilityLevel>
   <DataSourceImpersonationInfo>
     <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
