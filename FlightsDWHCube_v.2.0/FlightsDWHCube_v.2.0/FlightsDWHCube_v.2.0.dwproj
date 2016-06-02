@@ -12,6 +12,12 @@
       <FullPath>Flight DW Hv20.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Flight DW Hv20.dsv</Name>
+      <FullPath>Flight DW Hv20.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
