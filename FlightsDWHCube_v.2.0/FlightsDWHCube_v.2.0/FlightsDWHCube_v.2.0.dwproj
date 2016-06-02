@@ -6,14 +6,30 @@
     <Name>FlightsDWHCube_v 2 0.database</Name>
     <FullPath>FlightsDWHCube_v 2 0.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Flight DW Hv20 1.cube</Name>
+      <FullPath>Flight DW Hv20 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Flight DW Hv20 1.partitions</Name>
+          <FullPath>Flight DW Hv20 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Time.dim</Name>
       <FullPath>Time.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>AL Airlines.dim</Name>
-      <FullPath>AL Airlines.dim</FullPath>
+      <Name>n AP Airports.dim</Name>
+      <FullPath>n AP Airports.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>n AL Airlines.dim</Name>
+      <FullPath>n AL Airlines.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
