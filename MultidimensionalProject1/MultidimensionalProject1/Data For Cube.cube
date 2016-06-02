@@ -153,7 +153,21 @@
         <Attribute dwd:design-time-name="4b8e0032-caae-47ce-816b-436de63608e4">
           <AttributeID>Airport ID</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="5558fb2d-4565-4361-a670-505eaa8e77c1">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dd2937d-1d39-43de-99a4-e585be0b0a69">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfe03e22-6e8f-4000-abb0-15c7d79ab7aa">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b7e2539a-47ba-48b5-ab54-6768b895355a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="19b37c2c-870b-4a16-869e-c647fa9c94c1">
       <ID>Airlines</ID>
@@ -163,7 +177,18 @@
         <Attribute dwd:design-time-name="80df63b3-b612-464e-8d94-c6e7f5106d5c">
           <AttributeID>Airline ID</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="12b5442b-6fdc-4387-a958-8f8eeeff19ef">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc7e229a-9af1-4460-af56-0defa52a3d39">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ff4a0712-a1b4-4dee-942f-76510482dea4">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="b0e94ac2-7acf-4d14-a5d7-684d573660e1">
       <ID>Airport Source</ID>
@@ -173,7 +198,21 @@
         <Attribute dwd:design-time-name="63d73e61-0a07-4072-ae3e-51a0ca0d22af">
           <AttributeID>Airport ID</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="1e7dc447-60c3-4cee-ab32-2b4ce80c926c">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ef0b3456-3503-4766-ab98-b0b3d1699154">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ae7703c-a823-4d26-bea2-22fd34aa4967">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="97a5411f-55b0-46af-b8f5-87b09a912e37">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="5b39d07d-eb26-4c6f-85c3-f9d052353c96">
       <ID>Time</ID>

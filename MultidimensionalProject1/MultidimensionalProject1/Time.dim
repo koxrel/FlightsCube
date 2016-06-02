@@ -39,6 +39,53 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="164">
+            <Shape Id="Date" Expanded="true">
+              <Attributes>
+                <Attribute Id="Date" />
+                <Attribute Id="Day Of Month" />
+                <Attribute Id="Day Of Quarter" />
+                <Attribute Id="Day Of Week" />
+                <Attribute Id="Day Of Year" />
+                <Attribute Id="Month Of Quarter" />
+                <Attribute Id="Month Of Year" />
+                <Attribute Id="Week Of Year" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Week" Expanded="false">
+              <Attributes>
+                <Attribute Id="Week" />
+              </Attributes>
+              <Position x="230" y="20" />
+            </Shape>
+            <Shape Id="Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year" />
+              </Attributes>
+              <Position x="650" y="20" />
+            </Shape>
+            <Shape Id="Month" Expanded="true">
+              <Attributes>
+                <Attribute Id="Month" />
+                <Attribute Id="Quarter Of Year" />
+              </Attributes>
+              <Position x="230" y="69" />
+            </Shape>
+            <Shape Id="Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter" />
+              </Attributes>
+              <Position x="440" y="69" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
