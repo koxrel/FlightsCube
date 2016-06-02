@@ -6,10 +6,31 @@
     <Name>FlightsDWHCube_v 2 0.database</Name>
     <FullPath>FlightsDWHCube_v 2 0.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Flight DW Hv20.ds</Name>
+      <FullPath>Flight DW Hv20.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Flight DW Hv20</Id>
+            <Name>Flight DW Hv20</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=netkoxrel;Integrated Security=SSPI;Initial Catalog=FlightDWHv2.0</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Flight DW Hv20</Id>
+            <Name>Flight DW Hv20</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
